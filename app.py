@@ -74,6 +74,6 @@ elif seccion == "Predicción":
             datos = pd.DataFrame([[sl, sw, pl, pw]], columns=X.columns)
             resultado = model.predict(datos)
             st.success("Predicción realizada con éxito")
-            st.write(f"🔍 **La especie predicha es:** `{resultado[0]}`")
+            st.write(f" **La especie predicha es:** `{resultado[0]}`")
         except Exception as e:
-            st.error(f"⚠️ Error en la predicción: {e}")
+            st.error(f"⚠ Error en la predicción: {e}")
