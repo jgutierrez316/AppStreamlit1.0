@@ -17,7 +17,8 @@ Antes de entrenar el modelo, se realiza un análisis exploratorio para visualiza
 - Python 🐍  
 - Pandas  
 - Matplotlib & Seaborn 📈  
-- Scikit-learn 
+- Scikit-learn
+- Streamlit
 
 ## 🚀 Ejemplo de Predicción  
 Si ingresamos una flor con **pétalos cortos y anchos**, el modelo predice que es una **Iris Setosa**. Si tiene **pétalos más largos y delgados**, podría ser **Versicolor o Virginica**.  
